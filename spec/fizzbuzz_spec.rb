@@ -19,4 +19,10 @@ describe 'fizzbuzz' do # just a description
   it 'returns "fizzbuzz" when passed 30' do
     expect(fizzbuzz(30)).to eq 'fizzbuzz'
   end
+  it 'returns 1 when passed 1' do
+    expect(fizzbuzz(1)).to eq 1
+  end
+  it 'returns 4 when passed 4' do
+    expect(fizzbuzz(4)).to eq 4
+  end
 end
